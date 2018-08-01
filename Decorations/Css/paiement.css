@@ -1,0 +1,76 @@
+  #formulaire-paiement, #formulaire-profile, #formulaire-inscription {
+  background-color: #e74c3c;
+  margin: 100px auto;
+  padding: 40px;
+  width: 30%;
+  min-width: 300px;
+  border-radius: 10px;
+}
+
+h2.titre-secondaire   {
+  text-align: center;
+}
+
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+input.invalide {
+  background-color: #ffdddd;
+}
+
+.onglet {
+  display: none;
+}
+
+select {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button, #btnSubmit {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#precBtn {
+  background-color: #bbbbbb;
+  border-radius: 6px;
+}
+
+.etape {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.etape.active {
+  opacity: 1;
+}
+
+.etape.fini {
+  background-color: #4CAF50;
+}

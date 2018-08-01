@@ -1,0 +1,96 @@
+body {
+  margin: 0 0;
+  padding:10px;
+}
+
+#formulaire-identification legend {
+  position:relative;
+  font-weight:bold;
+  font-size: 25px;
+  text-shadow: 0px 1px 2px rgba(255,255,255,.5);
+  color: white;
+  text-align:center;
+  margin-top: 150px;
+}
+
+h2.titre-connexion{
+  text-align: center;
+  padding-top: 150px;
+}
+.cadre-formulaire form {
+  background: none;
+  margin: 20px auto 0;
+  padding: 10px;
+  width: 280px;
+}
+
+#formulaire-identification input {
+  display: block;
+  font-size: 14px;
+  width:240px;
+  margin: 10px auto;
+  padding: 10px 8px 10px 8px;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0, .55), 0px 1px 1px rgba(255,255,255,.5);
+  border: 1px solid #666;
+}
+
+#formulaire-identification input {
+  opacity: 0.8;
+}
+
+#formulaire-identification input:hover,
+#formulaire-identification input:focus {
+  opacity: .7;
+  color:#08c;
+  border: 1px solid #08c;
+   box-shadow: 0px 1px 0px rgba(255,255,255,.25),inset 0px 3px 6px rgba(0,0,0,.25);
+}
+
+#formulaire-identification input[type="submit"] {
+  appearance: none;
+  opacity: .99;
+  width:120px;
+  background: #08c;
+  box-shadow: inset 0 1px 2px rgba(255,255,255, .35), 0px 1px 6px rgba(0,246,255,.5);
+  border: 1px solid #0a5378;
+  border-radius: 4px;
+  color: #eee;
+  cursor: pointer;
+  text-shadow:0px -1px 0px rgba(0,0,0,.5);
+}
+
+#formulaire-identification input[type="submit"]:hover {
+  background: #e74c3c;
+  width:120px;
+  border: 1px solid #0a5378;
+  border-radius: 3px;
+  box-shadow: inset 0px 3px 16px rgba(0,0,0,.25),0px 1px 10px rgba(255,255,255,.5),inset 0px -1px 2px rgba(255,255,255,.35);
+  text-shadow:0px 1px 1px rgba(0,0,0,.65);
+  -webkit-transition: all 0.40s ease-out;
+  transition: all 0.40s ease-out;
+}
+
+.mot-de-passe-oublie {
+  text-align: center;
+}
+
+.mot-de-passe-oublie a {
+  color:#e74c3c;
+  font-size:14px;
+  text-decoration:none;
+  font-weight:100;
+  text-shadow:1px -1px 1px #2a2a32;
+  text-align: center;
+
+}
+
+.mot-de-passe-oublie a span.icn {
+  display:inline-block;
+  margin-left:5px;
+  transform:rotate(-90deg);
+}
+
+.mot-de-passe-oublie a#back {
+  display:none;
+}

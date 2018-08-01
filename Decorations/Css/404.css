@@ -1,0 +1,32 @@
+#contenu-cadre-404
+{
+
+  	text-align: center;
+  	background-color: #ffff;
+  	margin-top: 150px;
+  	margin-left:400px;
+  	margin-right: 200px;
+  	height: 380px;
+  	width: 660px;
+	background-image: url("../Images/photos/404.png");	
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width:760px) 
+{
+	#contenu-cadre-404
+	{
+	  	height: 80%
+	  	width: 60%
+	}
+
+}
+
+@media screen and (max-width : 400px)
+{
+		#contenu-cadre-404
+	{
+	  	height: 80%
+	  	width: 60%
+	}
+}

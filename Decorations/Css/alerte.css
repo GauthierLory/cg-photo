@@ -1,0 +1,32 @@
+/* The alert message box */
+.alert-verte {
+    margin-top: 50px;
+   padding: 20px;
+   background-color: #68b91d; /* Red */
+   color: white;
+}
+
+.alert-rouge {
+    margin-top: 50px;
+   padding: 20px;
+   background-color: #b9321d; /* Red */
+   color: white;
+}
+
+/* The close button */
+.bouton-fermer {
+   margin-left: 15px;
+   color: white;
+   font-weight: bold;
+   float: right;
+   font-size: 22px;
+   line-height: 20px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.bouton-fermer:hover {
+   color: black;
+}
+?>

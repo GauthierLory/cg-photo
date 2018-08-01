@@ -1,0 +1,41 @@
+#page-information{
+	margin-top: 100px;
+	background-color: #ffff;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+
+#page-facture{
+	margin-top: 100px;
+	margin-left: 20%;
+	background-color: #d14a2d;
+	border-radius: 10px;
+	opacity: 0.8;
+	width: 50%
+}
+
+#contenu{
+	font-size: 25px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	color: #E74C3C;
+}
+
+.titre-a-propos
+{
+	color: #E74C3C;
+	text-align: center;
+	font-size: 30px;
+}
+
+#map {
+    height: 200px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}

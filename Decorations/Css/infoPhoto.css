@@ -1,0 +1,36 @@
+#affichage-information-photo{
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+#cadre-information-photo
+{
+	display:inline-block;
+	border-radius: 10px;
+	overflow-x:auto;
+}
+
+#photo-selection
+{
+	overflow-x:auto;
+}
+
+#label-information{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#label-information,th {
+    padding-top: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+}
+
+#label-information td, #label-information th {
+    border-radius: 10PX;
+    padding: 8px;
+}

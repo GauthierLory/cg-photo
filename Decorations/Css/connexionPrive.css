@@ -1,0 +1,72 @@
+body {
+  background: #456;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.connexion {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.connexion-titre,
+.connexion p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.connexion-titre {
+  background: #E74C3C;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.formulaire-connexion {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.connexion p {
+  padding: 12px;
+}
+
+.connexion input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.connexion input[type="email"],
+.connexion input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.connexion input[type="email"]:focus,
+.connexion input[type="password"]:focus {
+  border-color: #888;
+}
+
+.connexion input[type="submit"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.connexion input[type="submit"]:hover {
+  background: #E74C3C;
+}

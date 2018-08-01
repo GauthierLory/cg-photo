@@ -1,0 +1,81 @@
+
+.images-block .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.grille-images{
+  margin-top: 50px;
+  position: absolute;
+   z-index: 1000;
+}
+
+.images-block{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.images-block .image{
+  display: block;
+  max-height: 100%;
+  max-width: 30.5%;
+  margin: auto;
+  padding: 10px;
+  opacity: 0.8;
+  transition: max-width 1s,opacity 0.4s;
+}
+
+.image img{
+  width: 100%;
+}
+
+.images-block .image:hover{
+  opacity: 1;
+  max-width: 32%;
+  transition: max-width 1s,opacity 0.4s;
+}
+
+@media screen and (max-width:760px) {
+  .images-block .image{
+    display: block;
+    max-height: 100%;
+    max-width: 45%;
+  }
+
+  .images-block .image:hover{
+    opacity: 1;
+    max-width: 46.5%;
+    transition: max-width 1s,opacity 0.4s;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .images-block .image{
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .images-block .image:hover{
+    opacity: 1;
+    max-width: 100%;
+    transition: max-width 1s,opacity 0.4s;
+  }
+}
+
+#bouton-supprimer{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 9%;
+  opacity: 0.8;
+  transition: width 0.1s,opacity 0.1s;
+}
+
+#bouton-supprimer:hover{
+  width: 11%;
+  opacity: 1;
+  transition: width 0.1s,opacity 0.1s;
+}
+
